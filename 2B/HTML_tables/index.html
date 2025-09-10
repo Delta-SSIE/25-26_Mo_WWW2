@@ -5,37 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabulky</title>
     <style>
-        td {
+        td, th {
             border: 1px solid black;
         }
         table {
             border-collapse: collapse;
+        }
+        tbody {
+            background-color: gold;
         }
     </style>
 </head>
 <body>
     
     <table>
-        <tr>
-            <td>Jméno</td>
-            <td>Umístění</td>
-        </tr>
-        <tr>
-            <td>Pepa</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Kamila</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td>Libor</td>
-            <td>8</td>
-        </tr>
-        <tr>
-            <td>Gabriela</td>
-            <td>10</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Jméno</th>
+                <th>Umístění</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pepa</td>
+                <td>2</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Kamila</td>
+                <td>1</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Libor</td>
+                <td>8</td>
+                <td>125</td>
+            </tr>
+            <tr>
+                <td>Gabriela</td>
+                <td>10</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Součet bodů</td>
+                <td>775</td>
+            </tr>
+        </tfoot>
     </table>
 
 </body>
