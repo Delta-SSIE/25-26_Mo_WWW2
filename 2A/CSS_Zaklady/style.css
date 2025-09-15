@@ -1,6 +1,62 @@
+/*Univerzální selektor*/
+* {
+    color: blue;
+}
 
 /* Obecné tagy */
 h1 {
-    color: #1bcf5a;
+    color: green;
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 15px 3px 15px black;
+}
+
+p{
+    color: red;
+    text-align: center;
+    line-height: 1.15;
+    text-indent: 150px;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+/*Selektory class a id*/
+.kurziva {
+    font-style: italic;
+    color: aqua;
+}
+
+#tucny {
+    font-weight: bold;
+    font-style: normal;
+    color: gold;
+}
+
+/* Selektory vnořené, skládané*/
+
+div p {
+    font-style: italic;
+    color: khaki;
+}
+
+.cast2 {
+    background-color: aqua;
+}
+.cast2 p {
+    background-color: black;
+}
+.cast2 > p {
+    background-color: green;
+}
+
+.cast2, .kurziva {
+    font-size: 25px;
 }
