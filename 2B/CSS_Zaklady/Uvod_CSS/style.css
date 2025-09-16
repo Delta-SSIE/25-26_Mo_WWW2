@@ -1,0 +1,61 @@
+/* Univerziální selektor */
+* {
+    color: red;
+}
+
+/* Obecné selektory na základě HTML tagů */
+
+h1 {
+    color: rgb(0, 255, 55);
+    background-color: #1c7bbe;
+}
+
+/* velikost paragrafu je určena 50% k rodičovskému prvku, což je body */
+p {
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50%; 
+}
+
+body {
+    font-size: 20px;
+}
+
+/* ID a Class selektor */
+
+/* třída kurziva lze dát více HTML prvkům */
+.kurziva {
+    font-style: italic;
+    color: blueviolet;
+}
+
+.modra {
+    color: blue;
+}
+
+/* id special je pouze pro JEDEN prvek v HTML */
+#special {
+    text-decoration: underline;
+    color: gold;
+    background-color: black;
+}
+
+/* Vnořený selektor a přiřazený */
+
+/*Platí pouze pro nadpis h1, který třídu super*/
+h1.super {
+    font-size: 50px;
+}
+
+div p {
+    color: gray;
+}
+
+div li {
+    color: gray;
+}
+
+div > li  {
+    color: darkcyan;
+}
