@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+p {
+  color: rgb(245, 245, 245);
+  font-family: Georgia, serif;
+  font-size: 10pt;
+}
+
+h1, h2, h3 {
+  color: #FFD700;
+  font-family: Calibri, sans-serif;
+}
+
+a {
+  color: tomato;
+}
+
+#uvod {
+  text-transform: uppercase;
+}
+
+.kroky {
+  font-size: small;
+  font-style: italic;
+}
+
+li > a {
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul>li {
+  font-weight: bold;
+}
