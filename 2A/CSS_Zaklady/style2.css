@@ -1,0 +1,69 @@
+/* Univerzální selektor */
+* {
+    color: blue;
+}
+
+/* Selektory class a ID */
+
+.tucny {
+    font-weight: bold;
+    color: violet;
+}
+
+.kurziva {
+    font-style: italic;
+}
+
+#special {
+    text-decoration: underline;
+    color: gold;
+}
+
+/* Selektory přes HTML tagy */
+body {
+    font-size: 20px; 
+}
+
+h1 {
+    color: red;
+    font-size: 20px;
+    font-family: Helvetica, Calibri, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Helvetica, Calibri, sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    color: green;
+}
+
+/* Selektory s (podmínkou) - přiřazené a vnořené */
+
+p.kurziva {
+    background-color: black;
+}
+
+h1.kurziva {
+    background-color:blue;
+}
+
+body h1.kurziva {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Vnořený selektor */
+div li {
+    color: brown;
+}
+
+/* Selektor přímého potomka */
+div > li {
+    font-family: 'Courier New', Courier, monospace;
+}
