@@ -1,0 +1,34 @@
+.blok {
+    display: block;
+}
+
+.radek {
+    display: inline;
+}
+
+.blok-radek {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10pt;
+    margin: 20px 40px 60px;
+    width: 250px;
+    border-bottom: 5px solid green;
+}
+
+.zmiz {
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.sloupec {
+    background-color: bisque;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    width: 500px;
+}
+
+.special {
+    color: red;
+    text-decoration: underline;
+}
