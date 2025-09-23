@@ -1,0 +1,18 @@
+.blok {
+    display: block;
+}
+
+.radek {
+    display: inline;
+}
+
+.blok-radek {
+    display: inline-block;
+    width: 500px;
+    border: 2px solid black
+}
+
+#zmiz {
+    /*visibility: hidden;*/
+    display: none;
+}
