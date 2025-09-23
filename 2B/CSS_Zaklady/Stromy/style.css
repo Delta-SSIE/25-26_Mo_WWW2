@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.strom {
+  display: inline-block; /* vedle sebe*/
+  background-color: white;
+  border: 1px solid gray;
+  width: 350px;
+  height: 500px;
+  vertical-align: top; /*na top obalu*/
+}
