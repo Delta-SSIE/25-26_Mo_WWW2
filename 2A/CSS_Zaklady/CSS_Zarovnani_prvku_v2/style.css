@@ -1,0 +1,66 @@
+img {
+    height: 50px;
+}
+
+.blok {
+    display: block;
+}
+
+.radek {
+    display: inline;
+}
+
+#zmiz {
+    /*display: none;*/
+    visibility: hidden;
+}
+
+.blok-radek {
+    display: inline-block;
+    border: 10px solid black;
+    border-top: 15px dotted red;
+    border-left: 5px dashed green;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px 40px 60px 80px;
+    margin: 80px 60px 40px 20px;
+}
+
+header {
+    border: 3px solid gold;
+    margin-bottom: 100px;
+}
+
+.bloky {
+    margin-top: 50px;
+}
+
+.special {
+    color: red;
+}
+
+em {
+    font-style: normal;
+    color: green;
+    font-weight: bold;
+}
+
+.auto a {
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.max-min {
+    border: 2px solid black;
+    max-width: 1000px;
+    min-width: 600px;
+}
+
+.overflow {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    overflow: auto;
+
+}
