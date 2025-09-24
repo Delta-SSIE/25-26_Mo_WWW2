@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: Times, serif;
+}
+
+.body, .footer, .header {
+  background-color: bisque;
+  border: 2px solid white;
+  margin: 5px;
+}
+
+.header {
+  text-align: center;
+}
+
+.body {
+  text-align: justify;
+}
+
+.body .sloupec a {
+  color: red;
+  text-align: center;
+  display: block;
+}
+
+.sloupec h1 {
+  font-style: italic;
+}
+
+.sloupec {
+  display: inline-block;
+  /*width: 33%;*/
+  width: 500px;
+  padding: 10px;
+}
+
+.sloupce {
+  margin: auto;
+  /*width: 99%; */
+  max-width: 1600px;
+  min-width: 505px;
+}
+
+.footer {
+  font-style: italic;
+}
