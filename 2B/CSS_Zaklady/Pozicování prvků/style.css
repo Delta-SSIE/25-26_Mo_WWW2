@@ -18,13 +18,14 @@ main {
 }
 
 .obrazek {
-    width: 100px;
+    width: 150px;
     height: 100px;
+    position: relative;
 }
 .obrazek p {
     position: absolute;
-    color: white;
-    left: 0;
+    right: 0;
     bottom: 0;
     z-index: 1;
+    margin: 0;
 }

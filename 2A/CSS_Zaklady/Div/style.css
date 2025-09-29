@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: Times, serif;
+}
+
+.body, .header, .footer {
+  background-color: bisque;
+  border: 2px solid white;
+  margin: 5px;
+}
+
+.header {
+  text-align: center;
+}
+
+.footer {
+  font-style: italic;
+}
+
+.body {
+  width: 1540px;
+  margin: auto;
+}
+
+.sloupec {
+  display: inline-block;
+  width: 500px;
+  text-align: justify;
+  padding: 5px;
+}
+
+.sloupec a {
+  color: red;
+  text-align: center;
+  display: block;
+}
