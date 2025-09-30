@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul.tasks {
+  list-style-type:none;
+}
+
+li.task {
+  text-align: center;
+  border: 2px solid lightgray;
+  margin-top: 5px;
+  padding: 10px 0px;
+}
+
+li.task:hover {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+li.task.done {
+  color: red;
+  text-decoration: line-through;
+  background-color: black;
+}
+
+li.task:first-child::before {
+  content: "🌟";
+}
