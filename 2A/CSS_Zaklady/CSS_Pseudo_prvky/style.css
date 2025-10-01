@@ -1,0 +1,75 @@
+/* Selektory pomocí sourozenců */
+
+h1 + h1 {
+    font-style: italic;
+}
+
+h1 ~ h1 {
+    color: blue;
+}
+
+h1 + p {
+    font-style: italic;
+}
+
+h1 ~ p {
+    color: red;
+}
+
+/* Selektor pomocí atributu */
+
+a[href="https://www.google.com/"] {
+    color: blueviolet;
+}
+
+a[target="_blank"] {
+    color: aqua;
+}
+
+/* Pseudo class */
+
+h1:hover {
+    background-color: red;
+}
+
+a:hover {
+    background-color: red;
+}
+
+a:link {
+    background-color: brown;
+}
+
+a:visited {
+    background-color: black;
+}
+
+p:first-child {
+    background-color: yellow;
+}
+
+p:first-of-type {
+    background-color: yellow;
+}
+
+/* Pseudo elementy */
+
+p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+h1::before {
+    content: "⭐";
+}
+
+h1:hover::after {
+    content: "⭐";
+}
+
+a::after {
+    content: attr(href);
+}
