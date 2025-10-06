@@ -1,0 +1,47 @@
+/* Pseudotřídy */
+
+a:hover {
+    background-color: yellow;
+}
+
+a:visited {
+    background-color: aqua;
+}
+
+a:link {
+    background-color: blue;
+}
+
+p:first-child {
+    color: aqua;
+}
+
+p:first-of-type {
+    color: red;
+}
+
+/* Pseudoelementy */
+
+p::first-line
+{
+    background-color: chartreuse;
+}
+
+p::first-letter
+{
+    font-size: 50px;
+}
+
+h1::after
+{
+    content: "⭐";
+}
+
+h1:hover::before
+{
+    content: "⭐";
+}
+
+a::after {
+    content: attr(href);
+}

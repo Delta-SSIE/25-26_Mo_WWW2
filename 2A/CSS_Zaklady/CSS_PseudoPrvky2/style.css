@@ -1,0 +1,28 @@
+
+/* Atribut */
+a[href="https://www.seznam.cz/"] {
+    color: red;
+}
+
+img {
+    width: 100px;
+    display: block;
+}
+
+img[src="apple2.jpg"] {
+    border: 2px solid black;
+}
+
+/* Sourozenci */
+
+a + a {
+    background-color: black;
+}
+
+h1 + a {
+    background-color: yellow;
+}
+
+h1 ~ a {
+    font-style: italic;
+}
