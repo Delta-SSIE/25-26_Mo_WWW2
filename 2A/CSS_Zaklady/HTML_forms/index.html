@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form action="">
+        <fieldset>
+            <legend>Osobní údaje</legend>
+            <label for="name">Jméno: </label>
+            <input type="text" name="user_name" id="name" placeholder="Jan Omáčka">
+            <label for="cislo">Osobní číslo: </label>
+            <input type="number" name="os_cislo" id="cislo">
+
+            <label for="kat">Junior</label>
+            <input type="radio" name="kate" id="kat" value="J">
+            <label for="kat2">Senior</label>
+            <input type="radio" name="kate" id="kat2" value="S">
+        </fieldset>
+        <label for="city">Města</label>
+        <select name="" id="city">
+            <optgroup label="Parudbický kraj">
+            <option value="pard">Pardubice</option>
+            </optgroup>
+            <optgroup label="Královehradecký kraj">
+            <option value="hr">Hradec Králové</option>
+            </optgroup> 
+        </select>
+
+         <label>
+        Váš prohlížeč:
+        <input type="text" list="browsery" name="prohlizec">
+    </label>
+    <datalist id="browsery">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+
+    <input type="submit" value="odeslat">
+    </form>
+
+</body>
+</html>
