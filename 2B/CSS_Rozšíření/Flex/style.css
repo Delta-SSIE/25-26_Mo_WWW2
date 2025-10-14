@@ -1,0 +1,24 @@
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #0077cc; /* main color */
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Individual buttons */
+.nav-btn {
+  background-color: white;
+  color: #0077cc;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  width: 100px;
+}
