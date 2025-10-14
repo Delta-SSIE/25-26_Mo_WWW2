@@ -1,0 +1,64 @@
+h1 {
+    color: red;
+}
+
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #0077cc; /* main color */
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Individual buttons */
+.nav-btn {
+  background-color: white;
+  color: #0077cc;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  height: 30px;
+}
+
+@media only print {
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: white;
+    }
+    .navbar {
+        background-color: white;
+    }
+    .nav-btn {
+        background-color: white;
+    }
+
+}
+
+@media only screen and (max-width:1000px)
+{
+    h1 {
+        color: blue;
+    }
+}
+
+@media only screen and (max-width:500px)
+{
+    h1 {
+        color: green;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+}
