@@ -1,0 +1,81 @@
+h1 {
+    color: red;
+}
+
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #0077cc; /* main color */
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Remove list styling */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Style links */
+.navbar li {
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  flex-basis: 250px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+@media only screen and (max-width:1000px) and (min-width:601px)
+{
+    h1 {
+    color: green;
+    }
+}
+
+@media only screen and (max-width:600px)
+{
+    h1 {
+    color: blue;
+    }
+
+    .navbar ul { 
+    flex-direction: column;
+    }
+
+    .navbar ul li { 
+        max-height: 25px;
+    }
+}
+
+
+@media print {
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .navbar {
+        background-color: white;
+    }
+
+    .navbar a {
+        color: black;
+    }
+
+}
+
+
