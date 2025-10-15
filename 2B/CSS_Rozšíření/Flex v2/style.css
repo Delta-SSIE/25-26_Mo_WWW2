@@ -16,6 +16,10 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
 }
 
 /* Style links */
@@ -25,6 +29,8 @@ body {
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  height: 20px;
+  flex-basis: 250px;
 }
 
 .navbar a {
@@ -32,3 +38,12 @@ body {
   color: #0077cc;
 }
 
+#home {
+  align-self: center;
+  flex-grow: 2;
+}
+
+#service {
+  order: -1;
+  flex-grow: 2;
+}
