@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+}
+
+@media only screen and (max-width:600px)
+{
+    h1 {
+    color: blue;
+    }
+}
+
+@media only screen and (max-width:800px) and (min-width:601px)
+{
+    h1 {
+    color: green;
+    }
+}
+
+
+@media print {
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        text-decoration: underline;
+    }
+}
