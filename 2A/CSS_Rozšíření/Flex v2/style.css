@@ -7,7 +7,7 @@ body {
 /* Navbar container */
 .navbar {
   background-color: #0077cc; /* main color */
-  padding: 10px 0;
+  padding: 15px 0;
   text-align: center;
 }
 
@@ -16,6 +16,12 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
 }
 
 /* Style links */
@@ -26,12 +32,19 @@ body {
   text-decoration: none;
   font-weight: bold;
   height: 20px;
+  flex-grow: 1;
 }
 
 #home {
-
+  /*align-self: start;*/
+  order: 1;
+  flex-grow: 3;
 }
 
 #service {
+  /*align-self: end;*/
+  order: -1;
+  flex-basis: 150px;
+  flex-grow: 3;
 
 }
