@@ -1,0 +1,21 @@
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAF50;
+    /*transition: background-color 0.5s, transform 5s;*/
+    transition: all 0.5s;
+    transition-timing-function: ;
+  }
+
+  .box:hover {
+    background-color: blue;
+    transform: scale(1.5) rotate(90deg);
+  }
