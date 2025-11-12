@@ -27,7 +27,7 @@
 
     a:hover {
       background-color: green;
-      transform: translate(20px);
+      border-left: 50px solid #333;
     }
 
     main {
