@@ -1,4 +1,30 @@
+  /*
+  @keyframes barva {
+    to {
+      background-color: yellow;
+      transform: rotate(360deg);
+    }
+  }
+    */
 
+  @keyframes barva2 {
+     25% {
+      background-color: yellow;
+      transform: rotate(45deg) ;
+    }
+     50% {
+      background-color: red;
+      transform: rotate(90deg);
+    }
+     75% {
+      background-color: violet;
+      transform: rotate(135deg);
+    }
+     100% {
+      background-color: blue;
+      transform: rotate(180deg);
+    }
+  }
 
   body {
       margin: 0;
@@ -16,5 +42,9 @@
       background-color: green;
       border-radius: 16px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      animation: barva2 2s;
+      animation-iteration-count: 2;
+      /*animation-direction: alternate;*/
+      animation-fill-mode: forwards;
     }
 

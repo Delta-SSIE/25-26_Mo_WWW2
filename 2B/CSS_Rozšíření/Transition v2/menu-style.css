@@ -28,7 +28,7 @@
     a:hover {
       background-color: white;
       color: #333;
-      padding-left: 40px;
+      transform: translate(15px);
     }
 
     main {
