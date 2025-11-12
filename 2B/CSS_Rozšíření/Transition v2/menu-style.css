@@ -22,13 +22,8 @@
       border-radius: 8px;
       text-align: center;
       background-color: #444;
-      transition: all 0.5s;
     }
 
-    a:hover {
-      background-color: green;
-      padding-left: 30px;
-      }
 
     main {
       flex: 1;
