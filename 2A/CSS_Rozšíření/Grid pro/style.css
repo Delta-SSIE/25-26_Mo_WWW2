@@ -3,14 +3,8 @@
   padding: 10px;
   display: grid;
   gap: 10px;
-  /*grid-template-columns: 80px auto 30px;*/
-  /*grid-template-columns: 1fr 1fr;*/
-  grid-template-areas:
-  'one one one'
-  'two three three'
-  'two four four'
-  'five five five';
- 
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  /*grid-auto-rows: minmax(100px,1fr);*/
 }
 .container div {
   background-color: #f1f1f1;
@@ -18,38 +12,4 @@
   padding: 10px;
   font-size: 30px;
   text-align: center;
-
-}
-
-/*
-#one {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-    */
-
-    /*
-#one {
-    grid-column: 1/4
-}
-    */
-
-#one {
-    grid-area: one;
-}
-
-#t {
-    grid-area: two ;
-}
-
-#th {
-    grid-area: three;
-}
-
-#f {
-    grid-area: four;
-}
-
-#fi {
-    grid-area: five ;
 }

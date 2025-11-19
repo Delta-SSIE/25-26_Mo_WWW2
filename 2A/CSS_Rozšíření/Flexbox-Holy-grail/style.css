@@ -8,11 +8,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: space-between;
-  height: 100%;
 }
 
 header,
@@ -24,23 +19,9 @@ footer {
 
 main {
   margin: 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 main>section {
   padding: 1em;
   margin: 0;
-}
-
-@media only screen and (max-width:800px)
-{
-  main {
-    flex-direction: column;
-  }
-
-  #center {
-    order: -1;
-  }
-
 }
