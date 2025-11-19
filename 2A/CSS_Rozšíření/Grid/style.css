@@ -1,0 +1,41 @@
+.container {
+  background-color: dodgerblue;
+  padding: 10px;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 5px;
+  /*grid-template-columns: auto 150px 50px;*/
+  /*grid-template-columns: 1fr 3fr 1fr; */
+  grid-template-areas:
+  'one one one one'
+  'two th th th'
+  'two four four four'
+  'five five five five';
+}
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#one {
+    grid-area: one;
+}
+
+#t {
+    grid-area: two;
+}
+
+#th {
+  grid-area: th;
+}
+
+#f {
+      grid-area: four;
+}
+
+#fi {
+      grid-area: five;
+}
