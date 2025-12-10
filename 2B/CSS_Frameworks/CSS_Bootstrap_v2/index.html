@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
+
+  </head>
 
 <body class="container">
     
-  <header>
-    <div>
-      <h1>Tim Berners-Lee</h1>
-      <p>Inženýr, tvůrce World Wide Webu a propagátor otevřeného webu.</p>
+  <header class="mb-3">
+    <div class="bg-primary bg-gradient text-white border border-3 border-secondary">
+      <h1 class="display-5">Tim Berners-Lee</h1>
+      <p class="lead">Inženýr, tvůrce World Wide Webu a propagátor otevřeného webu.</p>
     </div>
   </header>
 
   <main class="container">
-      <section class="row">
+      <section class="row gx-lg-5 gx-md-0 align-items-center justify-content-center">
         <div class="col-lg-8 col-md-6 col-12">
           <h2>Krátký životopis</h2>
-          <p>
+          <p class="text-center">
             Sir Timothy John Berners-Lee (nar. 8. června 1955) je britský počítačový vědec,
             který v 80. a 90. letech vytvořil základní technologie World Wide Webu:
             URL, HTTP a HTML. Později založil a vedl W3C (World Wide Web Consortium) a
@@ -32,8 +33,8 @@
         </div>
       </section>
 
-      <section>
-        <div>
+      <section class="row">
+        <div class="col-12 col-md-6 col-xl-4">
             <h3>Hlavní přínosy</h3>
             <ul>
             <li>Vynález World Wide Webu (hypertext propojený přes internet).</li>
@@ -42,10 +43,10 @@
             <li>Propagace otevřenosti, interoperability a ochrany soukromí na webu.</li>
             </ul>
         </div>
-        <div>
+        <div class="col-12 col-md-6 col-xl-4">
             <h3>Krátké časové body</h3>
-            <table>
-                <tr>
+            <table class="table table-bordered">
+                <tr class="table-primary">
                     <th>Rok / Období</th>
                     <th>Událost</th>
                 </tr>
@@ -63,8 +64,8 @@
                 </tr>
             </table>
         </div>
-        <div>
-           <img src="history.jpg" alt="WWW history">
+        <div class="col-12 col-md-6 col-xl-4 order-xl-first">
+           <img src="history.jpg" alt="WWW history" class="img-fluid">
         </div>
       </section>
     
