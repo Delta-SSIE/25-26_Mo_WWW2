@@ -172,18 +172,6 @@
   .grid {
     display: grid;
   }
-  .table {
-    display: table;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
-  }
-  .grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -198,14 +186,8 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .p-\[177px\] {
-    padding: 177px;
-  }
   .pt-\[52px\] {
     padding-top: 52px;
-  }
-  .pt-\[177px\] {
-    padding-top: 177px;
   }
   .text-3xl {
     font-size: var(--text-3xl);
@@ -221,20 +203,11 @@
   .underline {
     text-decoration-line: underline;
   }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
   .hover\:bg-fuchsia-300 {
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-fuchsia-300);
       }
-    }
-  }
-  .sm\:bg-amber-300 {
-    @media (width >= 40rem) {
-      background-color: var(--color-amber-300);
     }
   }
   .lg\:bg-amber-300 {
@@ -252,17 +225,11 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
     }
   }
 }
