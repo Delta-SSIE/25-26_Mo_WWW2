@@ -47,3 +47,14 @@ console.log(Odecet(10,5));
 console.log(Odecet(15,5));
 
 
+
+function DozivotniZasoba(vek, vekDoz, spotreba)
+{
+    return `Do konce života budeš potřebovat ještě ${(vekDoz-vek)*360*spotreba} šálků kávy.`;
+}
+
+console.log(DozivotniZasoba(25,77,2));
+
+const zasoba = (vek, doz, spotreba) => `Do konce života budeš potřebovat ještě ${(doz-vek)*360*spotreba} šálků kávy.`;
+
+console.log(zasoba(25,77,2));
