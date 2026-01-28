@@ -39,3 +39,8 @@ console.log(nasobeni(5,5));
 const deleni = (a,b) => a/b;
 
 console.log(deleni(nasobeni(5,5),5));
+
+const dozivotniZasoba = (vek,vekDoz,denniSpot) => `Do konce života budeš potřebovat ${(vekDoz-vek)*360*denniSpot} šálků kávy.`
+
+console.log(dozivotniZasoba(30,77,2));
+
