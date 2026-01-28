@@ -38,3 +38,6 @@ console.log(nasobeni(5,10));
 
 const nasobeni2 = (a,b) => a*b;
 console.log(nasobeni2(nasobeni(5,5),nasobeni2(10,5)));
+
+const dozivotniZasob = (vek, doziti, spotreba) => `Do konce života budeš potřebovat ${(doziti-vek)*360*spotreba} kusů své zásoby.`;
+console.log(dozivotniZasob(60,70,3));
