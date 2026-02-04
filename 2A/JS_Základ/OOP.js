@@ -69,7 +69,8 @@ const ctverec = {
     obvod: function()
     {
         return this.hrana * 4;
-    }    
+    },
+    
 };
 
 console.log(ctverec.obsah());
