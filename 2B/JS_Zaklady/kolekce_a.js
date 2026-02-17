@@ -68,3 +68,48 @@ console.log(poleC);
 
 let poleFil = poleC.filter((v) => v > 35);
 console.log(poleFil);
+
+const setString = new Set(["ahoj","čus","páčko"]);
+
+console.log(setString);
+
+for(let string of setString)
+{
+    console.log(string);
+}
+
+setString.add("Ahoy!");
+setString.add("ahoj");
+console.log(setString);
+console.log(setString.has("ahoj"));
+
+const dluhy = new Map([
+    ["Pepa",500]
+]);
+
+dluhy.set("Ludmila",1000);
+console.log(dluhy);
+
+for(let klic of dluhy.keys())
+{
+    console.log(klic);
+}
+
+for(let hodnota of dluhy.values())
+{
+    console.log(hodnota);
+}
+
+for(let zaznam of dluhy.entries())
+{
+    console.log(zaznam);
+}
+
+dluhy.set("Ludmila",dluhy.get("Ludmila")+500);
+dluhy.set("Libor",500);
+console.log(dluhy);
+console.log(dluhy.get("Ludmila"));
+
+dluhy.forEach((value,key) => (key[0] == "L") ? dluhy.set(key,value+100) : "");
+console.log(dluhy);
+
