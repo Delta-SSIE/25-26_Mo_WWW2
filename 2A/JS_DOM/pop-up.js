@@ -30,3 +30,22 @@ if(potvrzeni)
 }
     */
 
+//úkol
+
+let cislo = Math.floor((Math.random() * 50) + 1); 
+
+/*
+for (let i = 0; i < 5; i++) {
+    let tip = parseInt(window.prompt("Tipni si jaké čislo si myslim?"));
+    if(tip == cislo)
+    {
+        window.alert("Vyhrál jsi! Gratuluji!");
+        break;
+    } else if(tip < cislo)
+    {
+        window.alert("Málo!");
+    } else {
+        window.alert("Moc!");
+    }
+}
+*/
