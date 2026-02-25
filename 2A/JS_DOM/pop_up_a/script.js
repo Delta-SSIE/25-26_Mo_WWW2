@@ -29,3 +29,23 @@ if(potvrzeni)
     document.write("Zvolil jsi moudře!");
 }
 */
+
+
+//Hádej číslo
+
+let cislo = Math.floor((Math.random() * 50) + 1); 
+
+for (let i = 0; i < 5; i++) {
+    let tip = window.prompt("Zadej mi tvůj tip", 0);
+    if(parseInt(tip) == cislo)
+    {
+        document.write("Vyhrál jsi!");
+        break;
+    } else if (parseInt(tip) < cislo)
+    {
+        window.alert("Málo!");
+    } else {
+         window.alert("Moc!");
+    }
+    
+}
