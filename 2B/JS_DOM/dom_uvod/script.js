@@ -38,3 +38,23 @@ for(let odstavec of odstavecPodnadpisem)
 //Změna atributu
 const img = document.querySelector('#about img');
 img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfYztfPZY8GzYsXdrjSURb8b985ACy__sbEQ&s";
+
+
+//Přidání prvků na web pomocí JS
+let funfacts = document.getElementById('facts');
+
+let novaKarta = document.createElement('div');
+novaKarta.className = "card";
+novaKarta.innerHTML = "Bla bla bla";
+funfacts.appendChild(novaKarta);
+
+let novaSekce = document.createElement('section');
+let novyNadpis = document.createElement('h2');
+let novyOdstavec = document.createElement('p');
+
+novyNadpis.innerHTML = "Nadpis jak víno";
+novyOdstavec.innerHTML = "Text";
+
+novaSekce.appendChild(novyNadpis);
+novaSekce.appendChild(novyOdstavec);
+document.body.appendChild(novaSekce);
