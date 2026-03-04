@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Platypus</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef6f2;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #3f6f5a;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .title {
+            color: #3f6f5a;
+        }
+
+        .image {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .footer {
+            background-color: #3f6f5a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #2e5a47;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 id="mainHeading">The Amazing Platypus</h1>
+        <p>A truly unique mammal</p>
+        <button onclick="Klik(this)">Zmáčkni mě!</button>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+            <h2 class="title">About</h2>
+            <p>
+                The <span class="highlight">platypus</span> is a semi-aquatic mammal 
+                native to Australia. It is one of the few mammals that 
+                lays eggs instead of giving birth to live young.
+            </p>
+            <img class="image" 
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpNQX3g-TAllwNdjWu2ElULWbEWqGHE5qNpg&s" 
+                 alt="Platypus">
+        </div>
+
+        <div class="card">
+            <h2 class="title">Interesting Facts</h2>
+            <ul>
+                <li>It has a duck-like bill.</li>
+                <li>It lays eggs but produces milk.</li>
+                <li>Males have venomous spurs.</li>
+                <li>It can detect electric signals from prey.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Habitat</h2>
+            <p>
+                Platypuses live in rivers, lakes, and streams. 
+                They build burrows in riverbanks and are excellent swimmers.
+            </p>
+            <input type="text" id="textinput">
+            <p id="textoutput"></p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>© 2026 Platypus Page</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

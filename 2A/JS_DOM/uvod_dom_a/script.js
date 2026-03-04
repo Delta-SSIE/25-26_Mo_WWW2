@@ -50,3 +50,32 @@ novyOdstavec.innerHTML = "nějaký text"
 karta.appendChild(novyNadpis);
 karta.appendChild(novyOdstavec);
 kontejner.appendChild(karta);
+
+//Knížky
+
+const books = [
+    {
+        title: 'The Design of EveryDay Things',
+        author: 'Don Norman',
+        alreadyRead: false
+    }, 
+    {
+        title: 'The Most Human Human',
+        author: 'Brian Christian',
+        alreadyRead: true
+    }
+];
+
+let listKnih = document.createElement('ul');
+for(let book of books)
+{
+    let listItem = document.createElement('li');
+    listItem.innerHTML = `${book.title}, ${book.author}`;
+    if(book.alreadyRead)
+    {
+        listItem.style.fontWeight = "bold";
+    }
+    listKnih.appendChild(listItem);
+}
+karta.appendChild(listKnih);
+
