@@ -33,3 +33,20 @@ odstavecPat.style.color = "red";
 let odstavecPodNad = document.querySelectorAll('h2+p');
 console.log(odstavecPodNad);
 odstavecPodNad[0].textContent = "Nový text";
+
+//Přidání nových node
+
+let karta = document.createElement('div');
+karta.className = "card";
+console.log(karta);
+let kontejner = document.querySelector('div.container');
+
+let novyNadpis = document.createElement('h2');
+novyNadpis.className = "title";
+novyNadpis.innerHTML = "Nová sekce";
+let novyOdstavec = document.createElement('p');
+novyOdstavec.innerHTML = "nějaký text"
+
+karta.appendChild(novyNadpis);
+karta.appendChild(novyOdstavec);
+kontejner.appendChild(karta);
